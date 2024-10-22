@@ -98,8 +98,8 @@ global.maximus = '' // [OPSIONAL] isi dengan link thumbnail kalian. link ini aka
 * Download & Install ImageMagick [`Click here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/XM4ZE/XMYULA-MD
-cd XMYULA-MD
+git clone https://github.com/RafhX/RafwBot-OF
+cd RafwBot-OF
 npm install
 npm start
 ```
