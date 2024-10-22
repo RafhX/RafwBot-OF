@@ -38,47 +38,61 @@ wa.me/
 - Open the ```config.js``` file and change it as you wish.
 
 ```javascript
+/*============== API ==============*/
+// ISI APIKEY KALIAN DI BAGIAN 'ENTER YOUR APIKEY' SIMBOL JANGAN DI HAPUS
+global.APIs = {
+  btc: 'https://api.botcahx.eu.org',
+  lann: 'https://api.betabotz.org'
+} 
+
+global.APIKeys = {
+  'https://api.betabotz.eu.org': 'apikalian',
+  'https://api.botcahx.eu.org': 'apikalian'
+}
+
+
+
 /*============ NOMOR ============*/
 // BOLEH DI EDIT ASALKAN JANGAN ADA SIMBOL YANG DI HAPUS
 global.info = {
-        nomorbot: '62882257504889',
-        nomorown: '6281283516246',
-        namebot: 'Assisten YuLa',
-        nameown: 'Maximus Store',
-        channel: '120363241570452835@newsletter',
-        namechannel: 'XM4ZE | Whatsapp Bots'
+    nomorbot: '6283897513200',
+    nomorown: '6283897513200',
+    namebot: 'Assisten Ziaa',
+    nameown: 'NotRafhX',
+    channel: '',
+    namechannel: 'RaffBots | 2k24'
 }
 
 
 
 /*============ OWNER ============*/
 // BOLEH DI EDIT ASALKAN JANGAN ADA SIMBOL YANG DI HAPUS
-global.owner = ['6281283516246'] // Ganti pakai nomor kalian
-global.xmaze = ['6281283516246'] // Ganti pakai nomor kalian
+global.owner = ['6283897513200'] // Ganti pakai nomor kalian
+global.xmaze = ['6283897513200'] // Ganti pakai nomor kalian
 
-global.mods = ['6288225750488'] // Opsional boleh ganti atau tidak 
-global.prems = ['6281283516246', '6288225750488'] // Opsional boleh ganti atau tidak 
+global.mods = ['6283897513200'] // Opsional boleh ganti atau tidak 
+global.prems = ['6283897513200', '6283897513200'] // Opsional boleh ganti atau tidak 
 
 
 
 /*=========== WATERMARK ===========*/
 // BOLEH DI EDIT ASALKAN JANGAN ADA SIMBOL YANG DI HAPUS
-global.wm = 'XMYULA' // Opsional boleh ganti atau tidak 
-global.author = 'XM4ZE' // Opsional boleh ganti atau tidak 
-global.stickpack = 'XMYULA' // Opsional boleh ganti atau tidak 
-global.stickauth = 'XM4ZE' // Opsional boleh ganti atau tidak 
+global.wm = 'RafwBots' // Opsional boleh ganti atau tidak 
+global.author = 'RafwBots' // Opsional boleh ganti atau tidak 
+global.stickpack = 'RafwBots' // Opsional boleh ganti atau tidak 
+global.stickauth = 'RafwBots' // Opsional boleh ganti atau tidak 
 
 
 
 /*=========== TEXT & IMAGE ===========*/
 // BOLEH DI EDIT ASALKAN JANGAN ADA SIMBOL YANG DI HAPUS
-global.nameown = 'Maximus Store' // Ganti jadi nama kalian
-global.waown = 'wa.me/6281283516246' // ganti nomor tanpa menghilangkan wa.me/
-global.mail = 'maximusstoreindonesia@gmail.com' // boleh taruh email kalian
-global.fb = 'https://facebook.com/maximusstoreindonesia' // boleh taruh link fb kalian
-global.ig = 'https://instagram.com/maximusstore.id' // boleh taruh link ig kalian
-global.gcbot = 'https://whatsapp.com/channel/0029VaL28ZqFSAtCdSU5EX0M' // boleh taruh link group kalian
-global.qris = 'https://telegra.ph/file/f11ccd2ca8a5136aacfb3.jpg' // Wajib isi untuk pembayaran. isi dengan qris
+global.nameown = 'NotRafhX' // Ganti jadi nama kalian
+global.waown = 'wa.me/6283897513200' // ganti nomor tanpa menghilangkan wa.me/
+global.mail = 'raflihpratama@gmail.com' // boleh taruh email kalian
+global.fb = 'https://facebook.com/notrafhx' // boleh taruh link fb kalian
+global.ig = 'https://instagram.com/notrafhx' // boleh taruh link ig kalian
+global.gcbot = '-' // boleh taruh link group kalian
+global.qris = 'https://i.postimg.cc/L5Vtp1sM/Qris-Rafhx.jpg' // Wajib isi untuk pembayaran. isi dengan qris
 global.vn = 'https://github.com/XM4ZE/DATABASE/raw/master/wallpaper/KARA.mp3?raw=true' // Allmenu Voice
 
 
